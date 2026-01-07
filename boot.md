@@ -7,6 +7,15 @@
 1. Preparação do Diretório
 
 ```bash
+mkdir -p ~/dotfiles/config
+# Mover os arquivos para o repositório
+mv ~/.config/nvim ~/dotfiles/config/
+mv ~/.tmux.conf ~/dotfiles/
+mv ~/tmux ~/dotfiles/
+mv ~/.zshrc ~/dotfiles/
+mv ~/.config/nk-settings ~/dotfiles/config/
+mv ~/.config/ghostty/config ~/dotfiles/config/ghostty-config
+
    mv ~/dotfiles ~/nk.configs 2>/dev/null || mkdir -p ~/nk.configs/config
 ```
 
