@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define o diretório de origem (onde o git clonou os arquivos)
-DOTFILES_DIR="$HOME/.config/nk-inits"
+DOTFILES_DIR="$HOME/.config/nk."
 
 # Função para criar links (Linux/Android)
 link_file() {
